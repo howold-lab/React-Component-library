@@ -1,0 +1,640 @@
+.w {
+    margin: 0 auto;
+}
+.header {
+    position: sticky;
+    height: 41px;
+    background-color: #333333;
+    line-height: 41px;
+    top:0px;
+    z-index: 3;
+
+}
+.header .shortcut
+{
+    width: 1300px;
+    margin:0 auto;
+}
+.header .header-left a {
+    display: inline-block;
+    height: 41px;
+    text-decoration: none;
+    color: #b0b0b0;
+    font-size: 15px;
+    padding: 0px 20px;
+    float: left;
+}
+.header .header-left a:hover {
+    background-color: #fff;
+    color: darkorange;
+}
+.header .header-right a:hover {
+    background-color: #fff;
+    color: darkorange;
+}
+.header .header-right a { 
+    float: right;
+    display: inline-block;
+    height: 41px;
+    margin:0 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #b0b0b0;
+}
+.header .header-right  #car 
+{
+    position: relative;
+}
+.header .header-right  #car span{
+    color:white;
+    position: absolute;
+    top: -12px;
+    left: 4px;
+    font-size: 14px
+ }
+/* 头部模块css结束 */
+.product_intro
+{
+    width: 990px;
+    height: 505px;
+    margin:0 auto;
+    margin-top:50px;
+}
+.preview_wrap {
+    float: left;
+    width: 418px;
+    height: 418px;
+}
+.preview_wrap  .preview_img
+{
+
+    position: relative;
+    width: 420px;
+    height: 420px;
+    border: 1px solid #ccc;
+}
+.preview_wrap  .preview_img .orgin
+{
+    width: 420px;
+    height: 420px;
+}
+.preview_wrap  .preview_img .mask
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background: #FEDE4F;
+    opacity: .5;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+.preview_wrap  .preview_img  .bigphoto
+{
+    display: none; 
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left:450px;
+    top:0px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    z-index: 3;
+}
+.preview_wrap  .preview_img  .bigphoto .bgr
+{
+   position: absolute;
+   left: 0px;
+   top:0px;
+}
+.preview_list ul
+{   
+    
+    margin-top:30px;
+    width: 427px;
+    height: 62px;
+
+}
+.preview_list ul  li img
+{
+    border: 0.3px solid rgb(229, 228, 228);
+}
+.preview_list ul li:nth-of-type(1)
+{
+    margin-left: 60px;
+}
+.preview_list ul li
+{
+    display: inline-block;
+    margin-right: 20px;
+    float: left;
+}
+.preview_list ul li img{
+    
+    width: 60px;
+    height: 60px;
+}
+.itemInfo_wrap
+{
+    float: left;
+    width: 530px;
+    height: 605px;
+}
+.itemInfo_wrap h1
+{
+    text-indent:45px;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    font-family: "microsoft yahei";
+}
+.tm-price-panel {
+    margin-top:16px;
+    padding-left: 20px;
+    margin-left:20px;
+    display: inline-block;
+    width: 490px;
+    height: 40px;
+    background-color:#f0efef;
+    line-height: 40px;
+   
+}
+.tm-price-panel dt{  
+    float: left;
+    width: 69px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+  
+}
+.tm-price-panel dd{
+    margin-left: 55px;
+    display: inline-block;
+    color: #FF0036;
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+/*  */
+#div_box-right-4 {
+    width: 485px;
+    height: 43px;
+    position: relative;
+    border-top: 1px dashed #e5e4e4;
+    border-bottom: 1px dashed #e5e4e4;
+    margin-top:10px;
+    margin-left: 20px;
+} 
+#div_box-right-4  span 
+{
+    display: inline-block;
+    margin-left: 135px;
+    line-height: 43px;
+    font-size:500;
+}
+
+
+#div_box-right-5 {
+    position: relative;
+    width: 500px;
+    height: 43px;
+    margin-top: 18px;
+    margin-left: 16px;
+    
+}
+
+#div_box-right-5 span {
+    position: absolute;
+    left: 0;
+    color: #838383;
+    line-height: 43px;
+    font-size: 12px;
+    margin-left: 15px;
+    float: left;
+}
+#div_box-right-5  div{
+    height: 30px;
+    float: left;
+    width: 30px;
+    position: absolute;
+    left: 0;
+    top: 6.5px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.co {
+    border: 0.2px solid rgb(229, 228, 228);
+}
+.cu 
+{
+    border: 2px solid rgb(255, 0, 54);
+}
+.ck
+{
+    border: 2px solid rgb(255, 0, 54);
+}
+#div_box-right-5-div-1 {
+    margin-left: 90px;
+}
+
+#div_box-right-5-div-2 {
+    margin-left: 130px;
+}
+
+#div_box-right-5-div-3 {
+    margin-left: 170px;
+}
+
+#div_box-right-5-div-4 {
+    margin-left: 210px;
+    width: 35px;
+}
+
+#div_box-right-5-div-5 {
+    margin-left: 255px;
+    width: 40px;
+}
+
+#div_box-right-6 {
+    margin-left: 19px;
+    width: 494px;
+    height: 40px;
+    margin-top: 5px;
+    position: relative;
+}
+#div_box-right-6 span{
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+#div_box-right-6 ul 
+{
+    width: 300px;
+    margin-left: 44px;
+    float: left;
+}
+#div_box-right-6 ul li 
+{   
+    float: left;
+    width:38px;
+    height:38px;
+    margin-right: 7px;
+}
+#div_box-right-6 ul li img{
+    width:34px;
+    height:34px;
+}
+
+#div_box-right-7 {
+    width: 500px;
+    height: 40px;
+    margin-top: 12px;
+    position: relative;
+}
+
+#div_box-right-7 span {
+    position: absolute;
+    left: 0;
+    color: #838383;
+    line-height: 43px;
+    font-size: 12px;
+    margin-left: 32px;
+    float: left;
+}
+
+#div_box-right-7-div-1 {
+    height: 35px;
+    width: 45px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 2.5px;
+    font-size: 13px;
+    border: 0.2px solid #e5e4e4;
+    line-height: 40px;
+    margin-left: 90px;
+    color: #838383;
+}
+
+#div_box-right-7-div-2 {
+    height: 35px;
+    width: 20px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 2.5px;
+    line-height: 40px;
+    margin-left: 140px;
+    color: #838383;
+}
+
+#div_box-right-7-div-2-onck1,#div_box-right-7-div-2-onck2 {
+    width: 20px;
+    height: 15px;
+    border: 0.2px solid #e5e4e4;
+    text-align: center;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+#div_box-right-7-div-2-onck2 {
+    margin-top: 5px;
+}
+
+#div_box-right-8 {
+    width: 355px;
+    height: 40px;
+    margin-top: 55px;
+    position: relative;
+    margin-left: 90px;
+}
+
+#div_box-right-8-div-1 {
+    width: 170px;
+    height: 40px;
+    border: 1px solid #ff0036;
+    color: #ff0036;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ffeded ;
+    position: absolute;
+    float: left;
+}
+
+#div_box-right-8-div-2 {
+    width: 170px;
+    height: 40px;
+    border: 1px solid #ff0036;
+    color: #ffffff;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ff0036;
+    position: absolute;
+    right: 0;
+}
+
+
+
+/*头部的制作*/
+
+
+ /* 商品下方的评论部分 */
+.tab {
+    width: 990px;
+    height: 1200px;
+    margin: 100px auto;
+}
+.tab_list {
+    height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+.tab_list li {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    padding: 0 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.tab_con
+{
+    margin-top:10px;
+} 
+.tab_list .current {
+    background-color: #c81623;
+    color: #fff;
+}
+.tab_con .one
+{
+    font-size: 18px;
+}
+.item {
+    display: none;
+}
+.tab_con .two{
+    border:1px solid #f7f7f7;
+}
+.one p img 
+{
+    
+    height: 450px;
+    margin-left:20px;
+}
+.two div
+{
+    font-size: 16px;
+    background-color:#EEEEEE;
+}
+.two ul
+{
+    margin-left:130px;
+    font-size: 16px;
+    margin-top:20px;
+}
+.two p{
+    margin:0 auto;
+    margin-top:60px;
+    width: 982px;
+    font-size: 18px;
+    color:red;
+}
+.two img{
+    width: 550px;
+    height: 550px;
+    margin: 0 235px;
+}
+.three .comment1
+{
+    margin-top:20px;
+    position: relative;
+    height: 120px;
+    border-bottom:1px solid #efefef;
+
+    
+}
+.three .comment1 .right
+{
+    position: absolute;
+    top:40px;
+    right:120px;
+
+}
+.three .comment1 span{
+    position: absolute;
+    bottom: 20px;
+}
+.three .comment1 .name
+{
+    right: 0;
+    top:50px;
+}
+.three .comment2
+{
+    margin-top:20px;
+    position: relative;
+    height: 120px;
+    border-bottom:1px solid #efefef;
+
+    
+}
+.three .comment2 .right
+{
+    position: absolute;
+    top:40px;
+    right:120px;
+
+}
+.three .comment2 span{
+    position: absolute;
+    bottom: 20px;
+}
+.three .comment2 .name
+{
+    right: 0;
+    top:50px;
+}
+
+.three .comment3
+{
+    margin-top:20px;
+    position: relative;
+    height: 120px;
+    border-bottom:1px solid #efefef;
+
+    
+}
+.three .comment3 .right
+{
+    position: absolute;
+    top:40px;
+    right:120px;
+
+}
+.three .comment3 span{
+    position: absolute;
+    bottom: 20px;
+}
+.three .comment3 .name
+{
+    right: 0;
+    top:50px;
+}
+.three .comment4
+{
+    margin-top:20px;
+    position: relative;
+    height: 120px;
+    border-bottom:1px solid #efefef;
+
+    
+}
+.three .comment4 .right
+{
+    position: absolute;
+    top:40px;
+    right:120px;
+
+}
+.three .comment4 span{
+    position: absolute;
+    bottom: 20px;
+}
+.three .comment4 .name
+{
+    right: 0;
+    top:50px;
+}
+/* 底部模块的制作css */
+.footer {
+    margin:0 auto;
+    height: 200px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+    background-color: #000000;
+}
+.mod_service {
+    width:1200px;
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+    margin:0 auto;
+}
+.mod_service ul li {
+    float: left;
+    width: 300px;
+    height: 50px;
+    padding-left: 35px;
+}
+.mod_service ul li h5 {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(../images/icons.png) no-repeat -252px -2px;
+    margin-right: 8px;
+}
+.mod_service ul li:nth-of-type(2) h5
+{
+    background: url(../images/icons.png) no-repeat -255px -54px;
+}
+.mod_service ul li:nth-of-type(3) h5
+{
+    background: url(../images/icons.png) no-repeat -258px -107px;
+}
+.mod_service ul li:nth-of-type(4) h5
+{
+    background: url(../images/icons.png) no-repeat -256px -208px;
+    
+}
+.service_txt h4 {
+    font-size: 14px;
+}
+.service_txt  p {
+    font-size: 12px;
+}
+.mod_help {
+    height: 185px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.mod_help dl {
+    float: left;
+    width: 200px;
+}
+.mod_help dl:last-child {
+    width: 90px;
+    text-align: center;
+}
+.mod_help dl dt {
+    font-size: 16px; 
+    margin-bottom: 10px;
+}
+.mod_copyright {
+    text-align: center;
+    padding-top: 20px;
+}
+.copyright {
+    line-height: 20px;
+}
+.stock
+{
+    margin-top:15px;
+    margin-left:30px;
+}
+.stock input 
+{
+    margin-left:33px;
+    border: 0.2px solid #e5e4e4;
+    height: 25px;
+    width: 45px;
+    color: #838383;
+}
